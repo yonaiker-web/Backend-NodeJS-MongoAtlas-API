@@ -1,0 +1,23 @@
+nodemon: es una utilidad que monitorea los cambios en el código fuente que se esta desarrollando y automáticamente re inicia el servidor
+
+express:  Proporciona mecanismos para: Escritura de manejadores de peticiones con diferentes verbos HTTP en diferentes caminos URL (rutas).
+
+dotenv: es un módulo sin dependencias que permite cargar las variables de entorno de un proyecto node desde un archiv
+
+body-parser: extrae toda la parte del cuerpo de una secuencia de solicitud entrante y la expone en req.body ( es una version vieja)
+
+morgan: es otro middleware de registro de solicitudes HTTP para Node.js. Simplifica el proceso de registro de solicitudes en su aplicación. Puede pensar en Morgan como un ayudante que recopila registros de su servidor, como los registros de solicitudes. Ahorra tiempo a los desarrolladores porque no tienen que crear manualmente registros comunes. Estandariza y crea automáticamente registros de solicitudes.
+
+mongoose: es una librería para Node.js que nos permite escribir consultas para una base de datos de MongooDB, con características como validaciones, construcción de queries, middlewares, conversión de tipos y algunas otras, que enriquecen la funcionalidad de la base de datos.
+
+cors: El intercambio de recursos de origen cruzado o CORS es un mecanismo que permite que se puedan solicitar recursos restringidos en una página web desde un dominio diferente del dominio que sirvió el primer recurso
+
+bcryptjs: librería podemos generar el hash de cualquier campo(para encriptar, en este caso contraseñas)
+
+jsonwebtoken: JWT (JSON Web Token) es un estándar qué está dentro del documento RFC 7519.
+En el mismo se define un mecanismo para poder propagar entre dos partes, y de forma segura, la identidad de un determinado usuario, además con una serie de claims o privilegios.
+Estos privilegios están codificados en objetos de tipo JSON, que se incrustan dentro de del payload o cuerpo de un mensaje que va firmado digitalmente.
+
+Express-JWT: es solo una biblioteca para Express que valida/firma tokens web json que se pueden usar con el servidor web express (middleware). JsonWebTokens es solo otra implementación de los tokens web json. Hay muchas otras bibliotecas de tokens JWT que puede implementar con el nodo. Express-jwt es solo uno de esos.
+
+Multer: es un middleware para Express y Node. js que hace que sea fácil manipular este multipart/form-data cuando tus usuarios suben archivos

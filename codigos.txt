@@ -1,0 +1,20 @@
+//trar todos los datos
+Product.find()
+
+//trae todos los datos seleccionando solo por name
+Product.find().select('name')
+
+//trae un dato unicamente por id
+Product.findById(req.params.id)
+
+//trae todos los datos por id desglosando los datos tambien de la categoria
+Product.findById(req.params.id).populate('category')
+
+//actualizamos los datos con la estructura dada
+Product.findByIdAndUpdate(req.params.id, {
+        //esqeuma de la estructura
+    },
+
+//obtenemos todos los datos filtrando que isFeatured sea true
+Product.find({isFeatured: true})
+
